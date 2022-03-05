@@ -21,7 +21,7 @@ function setResult() {
 let nova_cor1 = [];
 let nova_cor2 = [];
 
-function randomicGradient() {
+function randomGradient() {
     for(let i = 0; i < 6; i++) {
         let numero = Math.floor(Math.random() * 10);
         nova_cor1 += numero;
@@ -30,10 +30,10 @@ function randomicGradient() {
         let numero = Math.floor(Math.random() * 10);
         nova_cor2 += numero;
     } 
-    setRandomicGradient();   
+    setRandomGradient();   
 }
 
-function setRandomicGradient() {
+function setRandomGradient() {
     body.style.background = "linear-gradient(to right, #" + nova_cor1 + ", #" + nova_cor2 + ")";
     color1.value = "#" + nova_cor1;
     color2.value = "#" + nova_cor2;
@@ -44,4 +44,4 @@ function setRandomicGradient() {
 
 color1.addEventListener("input", setGradient);
 color2.addEventListener("input", setGradient);
-btn_random.addEventListener("click", randomicGradient);
+btn_random.addEventListener("click", randomGradient);
