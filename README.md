@@ -2,7 +2,7 @@
 https://loaalobo.github.io/random_gradient/
 
 
-This exercise has been done by me (with some changes) from the course "The Complete Web Developer in 2022: Zero to Mastery". 
+This exercise has been done by me from the course "The Complete Web Developer in 2022: Zero to Mastery". 
 The challenge was:
 
 1. Write code so that the colour inputs match the background generated on the first page load. 
